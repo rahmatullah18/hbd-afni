@@ -6,6 +6,7 @@ body {
 	background: #FDE3A7; /*CAPE HONEY*/
 	margin: 0px;
 	padding: 0px;
+	overflow-x: hidden;
 }
 
 ::selection {
@@ -32,7 +33,6 @@ h4 {
 	background: #e0e1dc;
 	transform-style: preserve-3d;
 	transform: translate(-50%,-50%) perspective(2000px);
-	box-shadow: inset 300px 0 50px rgba(0,0,0,.5), 20px 0 60px rgba(0,0,0,.5);
 	transition: 1s;
 }
 
@@ -94,14 +94,14 @@ h4 {
 #card:hover .bark {
 	opacity: 1;
 	transition: .6s;
-  box-shadow: 300px 200px 100px rgba(0, 0, 0, .4) inset;
+  /* box-shadow: 300px 200px 100px rgba(0, 0, 0, .4) inset; */
 }
 
 #card #details {
 	position: absolute;
 	top: 0;
 	left: 0;
-	box-sizing: border-box;
+	/* box-sizing: border-box; */
 	padding: 0 0 0 10px;
 	z-index: -1;
 	margin-top: 70px;

@@ -9,7 +9,6 @@ const ComponentCard = ({data}) => {
             </div>
             <div id="details">
                 <h4 id="color1">{data.title}</h4>
-                <h4 id="color2 margin">(HAPPY BIRTHDAY)</h4>
                 <p>{data.text}</p>
                 <p>{data.text1}</p>
                 <p>{data.text2}</p>
