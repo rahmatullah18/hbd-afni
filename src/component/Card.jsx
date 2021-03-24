@@ -4,7 +4,7 @@ import ComponentCard from './ComponentCard';
 
 const Card = () => {
     return (
-        <div className="">
+        <div className="mb-5">
             <div className="row">
             {
                 Data.map((dt,idx) => (

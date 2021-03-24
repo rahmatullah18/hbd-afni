@@ -8,7 +8,7 @@ const ComponentCard = ({data}) => {
                 <img src={data.img} alt="gambar" />
             </div>
             <div id="details">
-                <h4 id="color1">{data.title}</h4>
+                <h4 id="color1" className="text-center mb-4">{data.title}</h4>
                 <p>{data.text}</p>
                 <p>{data.text1}</p>
                 <p>{data.text2}</p>

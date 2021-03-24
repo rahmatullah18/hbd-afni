@@ -5,7 +5,7 @@ import './App.css'
 const App = () => {
   return (
       <div className="container">
-        <h1 className="text-center mt-4">birthday card</h1>
+        <h1 className="text-center mt-4">HBD Apni</h1>
         <Card/>
       </div>
   );
