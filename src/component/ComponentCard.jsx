@@ -1,11 +1,11 @@
 import React from 'react';
 
-const ComponentCard = ({data}) => {
+const ComponentCard = ({ data }) => {
     return (
         <div id="card">
             <div id="imgBox">
                 <div id="bark"></div>
-                <img src={data.img} alt="gambar" />
+                <img src="https://i.ibb.co/jyrts86/21.jpg" alt="gambar" />
             </div>
             <div id="details">
                 <h4 id="color1" className="text-center mb-4">{data.title}</h4>
